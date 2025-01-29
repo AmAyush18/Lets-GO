@@ -14,7 +14,7 @@ app.get('/get', (req, res) => {
     res.status(200).json({message: "Hello from Code Therapist"})
 })
 
-app.post('post', (req, res) => {
+app.post('/post', (req, res) => {
     let myJson = req.body;
 
     res.status(200).send(myJson)
