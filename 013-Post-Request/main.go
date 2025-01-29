@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to GET Request in Golang")
+	fmt.Println("Welcome to Post Json Request in Golang")
 
 	PerformPostJsonRequest()
 }
